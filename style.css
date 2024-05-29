@@ -1,0 +1,66 @@
+#canvas{
+  border:1px solid #d3d3d3;
+  background:white;
+}
+
+#canvas_2{
+  border:1px solid #d3d3d3;
+  background:transparent;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.color__options {
+    display: flex;
+    align-items: center;
+    .option {
+      display: inline-block;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      margin-left: 8px;
+      &:nth-child(1) {
+        border: 2px solid black;
+        background-color: #fff;
+      }
+      &:nth-child(2) {
+        border: 2px solid black;
+        background-color: #000;
+      }
+      &:nth-child(3) {
+        border: 2px solid black;
+        background-color: #2babf5;
+      }
+      &:nth-child(4) {
+        border: 2px solid black;
+        background-color: #f3d05f;
+      }
+      &:nth-child(5) {
+        border: 2px solid black;
+        background-color: #01936f;
+      }
+    }
+    #picker{
+      margin-left: 8px;
+    }
+}
+.tool_button {
+  border:solid;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  position:absolute;
+  .selected{
+    background-color: rgb(177, 226, 245);
+  }
+}
+.tool_button:hover {
+  /* background-color: #e3bebe; */
+  background-color: rgb(177, 226, 245);
+  visibility: "hidden";
+}
+
+.selected{
+  background-color: rgb(177, 226, 245);
+}
